@@ -1,0 +1,77 @@
+
+body {
+    background: url(images/markus.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+#nav {
+    background-color: #343a4000;
+}
+
+#heading {
+    border-bottom: 2px solid black;
+}
+
+header {
+    background-color: #c5ac8c;
+    border: 2px solid black;
+    margin: 5% 0 5% 0;
+}
+
+#header {
+    padding-left: 2%;
+}
+
+.card {
+    padding: 0;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    width: 300px;
+}
+
+.card img {
+    height: 170px;
+}
+
+.title {
+    border-bottom: 1px solid black;
+}
+
+.row {
+    margin: 2% 0 2% 0;
+    width: 100%;
+}
+
+
+
+#skills,
+#experience {
+    padding-top: 5%;
+}
+
+p:hover,
+#contacts:hover {
+    color: blue;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: blue;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(103, 110, 142, 0.5);
+}
+
+#headParagraph:hover {
+    color: #212529;
+}
+.col-sm-8.offset-sm-2 {
+    background: white;
+    opacity: .6;
+    padding: 15px;
+    border-radius: 30px;
+}
